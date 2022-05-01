@@ -1,15 +1,16 @@
 #  서울에서 김서방 찾기
 
+### 문제
 
-문제 설명
-String형 배열 seoul의 element중 "Kim"의 위치 x를 찾아, "김서방은 x에 있다"는 String을 반환하는 함수, solution을 완성하세요. seoul에 "Kim"은 오직 한 번만 나타나며 잘못된 값이 입력되는 경우는 없습니다.
-
-제한 사항
-seoul은 길이 1 이상, 1000 이하인 배열입니다.
-seoul의 원소는 길이 1 이상, 20 이하인 문자열입니다.
-"Kim"은 반드시 seoul 안에 포함되어 있습니다.
+![스크린샷 2022-05-02 오전 8 30 00](https://user-images.githubusercontent.com/64088377/166169242-999256a6-d818-44d6-904b-c956226ac41b.png)
 
 
-입출력 예
-seoul    return
-["Jane", "Kim"]    "김서방은 1에 있다"
+### 풀이
+```
+firstInex(where: {$0.hasPrefix( ) }) 를 사용. 
+// hasPrefix가 갖고 있는 가장 첫번째 Index를 반환한다.
+```
+
+
+문제 출처 <br>
+https://programmers.co.kr/learn/challenges
