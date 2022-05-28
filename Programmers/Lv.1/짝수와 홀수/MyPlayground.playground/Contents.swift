@@ -1,5 +1,7 @@
-func solution(_ num:Int) -> String {
-    return num % 2 == 0 ? "Even" : "Odd"
-}
+import Foundation
 
-solution(3)
+func solution(_ price:Int, _ money:Int, _ count:Int) -> Int64{
+    var answer:Int64 = -1
+    
+    return answer
+}
