@@ -1,7 +1,8 @@
 #  자릿수 더하기
 
 ### 문제
-![스크린샷 2022-05-16 오전 8 42 34](https://user-images.githubusercontent.com/64088377/168499340-0c0847e3-738b-416a-9690-e672ac0d2fbf.png)
+![스크린샷 2022-10-11 오전 11 37 55](https://user-images.githubusercontent.com/64088377/194984443-81407c14-3f00-4ff3-b265-cb3298cab3a1.png)
+
 
 ### 사용 메소드 <br>
 map(), reduce()
