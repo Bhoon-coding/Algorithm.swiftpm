@@ -26,3 +26,7 @@ Swift 알고리즘 문제를 풀고 정리하는 용도 입니다.
 
 
 ## LeetCode
+
+- [Find Numbers with Even Number of Digits](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Find%20Numbers%20with%20Even%20Number%20of%20Digits)
+- [Max Consecutive Ones](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Max%20Consecutive%20Ones)
+- [Squares of a Sorted Array](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Squares%20of%20a%20Sorted%20Array)
