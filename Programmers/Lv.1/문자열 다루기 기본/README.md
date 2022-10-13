@@ -22,7 +22,7 @@ solution("12a4")
 ```
 
 ### 정리 <br>
-
+https://peppo.tistory.com/152
 
 문제 출처 <br>
 https://school.programmers.co.kr/learn/courses/30/lessons/12918
