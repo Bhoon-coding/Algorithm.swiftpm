@@ -17,8 +17,7 @@ solution(123)
 ```
 
 ### 정리 <br>
-티스토리 복구되면 올릴 예정 :) <br>
-카카오 화이팅
+https://peppo.tistory.com/m/155
 
 문제 출처 <br>
 https://school.programmers.co.kr/learn/courses/30/lessons/12947
