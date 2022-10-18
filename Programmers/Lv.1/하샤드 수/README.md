@@ -1,87 +1,23 @@
 #  하샤드 수
 
 ### 문제
-![스크린샷 2022-10-14 오후 10 52 48](https://user-images.githubusercontent.com/64088377/195863852-adb726c6-7599-4832-8dd4-e0c7c7a76f60.png)
+<img src="https://user-images.githubusercontent.com/64088377/196064887-57501d7e-f58b-4577-ac57-9d41cef05595.png" width="500" >
 
 ### 풀이 <br>
 ```swift 
-
-struct Stack<T> {
-    
-    private var stack: [T] = []
-    
-    public var isEmpty: Bool {
-        return stack.isEmpty
-    }
-    
-    public var count: Int {
-        return stack.count
-    }
-    
-    public mutating func push(_ el: T) {
-        stack.append(el)
-    }
-    
-    public mutating func pop() -> T? {
-        return isEmpty ? nil : stack.popLast()
-    }
-    
+func solution(_ x:Int) -> Bool {
+    // TODO: [x] String으로 변환 (Int로 다시 변환해 빈 배열에 넣기)
+    // TODO: [x] reduce를 이용해 각 요소별 합구하기
+    // wholeNumberValue는 옵셔널을 반환 -> compactMap을 사용해서 옵셔널 바인딩을 해줌.
+    var totalValue = String(x).compactMap { $0.wholeNumberValue }.reduce(0) { $0 + $1 }
+    // TODO: [x] x % 요소 별 합 == 0 ? true : false
+    return x % totalValue == 0 ? true : false
 }
-
-struct Queue<T> {
-    
-    var s1 = Stack<T>()
-    var s2 = Stack<T>()
-    
-    public mutating func inQueue(_ el: T) {
-        s1.push(el)
-    }
-    
-    public mutating func deQueue() -> T? {
-        var savedValue: T?
-        // TODO: [x] s1에 아무것도 없으면 return nil
-        if s1.isEmpty {
-            return nil
-        // TODO: [x] s1에 요소가 하나만 있으면 return s1[0]
-        } else if s1.count == 1 {
-            return s1.pop()!
-        }
-
-        // TODO: [x] 나머지 루프 돌리기
-
-        // TODO: [x] s1이 여러개면 s1 가장 처음에 저장된 요소가 남을때 까지 s2로 push
-        // TODO: [x] s1 마지막 요소를 따로 저장 후 return
-        // TODO: [x] s2에 있는 모든요소들 다시 s1으로 push
-        for _ in 1...s1.count {
-            if s1.count > 1 {
-                s2.push(s1.pop()!)
-            } else {
-                savedValue = s1.pop()!
-                for _ in 1...s2.count {
-                    s1.push(s2.pop()!)
-                }
-                return savedValue
-            }
-        }
-        return nil
-    }
-    
-}
-
-var queue1 = Queue<Int>()
-queue1.inQueue(1)
-queue1.inQueue(2)
-
-queue1.deQueue()
-queue1.deQueue()
-queue1.deQueue()
-queue1.deQueue()
-
-
+solution(123)
 ```
 
 ### 정리 <br>
-https://peppo.tistory.com/154
+https://peppo.tistory.com/m/155
 
 문제 출처 <br>
-
+https://school.programmers.co.kr/learn/courses/30/lessons/12947
