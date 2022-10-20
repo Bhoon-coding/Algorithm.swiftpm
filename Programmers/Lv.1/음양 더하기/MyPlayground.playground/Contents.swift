@@ -6,7 +6,6 @@ func solution(_ absolutes:[Int], _ signs:[Bool]) -> Int {
     for (idx, el) in signs.enumerated() {
         el == true ? result.append(absolutes[idx]) : result.append(-absolutes[idx])
     }
-    
     // TODO: [x] 위 내용을 적용하고 총합 구하기 (reduce)
     return result.reduce(0, { $0 + $1 })
 }
