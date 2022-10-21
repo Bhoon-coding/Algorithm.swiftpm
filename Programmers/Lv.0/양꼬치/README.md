@@ -3,7 +3,6 @@
 ### 문제
 <img src="https://user-images.githubusercontent.com/64088377/197084138-ba9ded2f-1e73-4bc5-97c1-fc8db29784b3.png" width="500" >
 
-// ### 사용 메소드 <br>
 
 ### 풀이 <br>
 ```swift 
