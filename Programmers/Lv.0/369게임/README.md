@@ -12,7 +12,7 @@ func solution(_ order:Int) -> Int {
 ```
 
 ### 정리 <br>
-
+https://peppo.tistory.com/160
 
 문제 출처 <br>
 https://school.programmers.co.kr/learn/courses/30/lessons/120891
