@@ -1,7 +1,7 @@
 #  문자 반복 출력하기
 
 ### 문제
-<img src="(https://user-images.githubusercontent.com/64088377/198168813-9643ce2a-feb7-4d50-a43a-6e38697c5b55.png" width="500" >
+<img src="https://user-images.githubusercontent.com/64088377/198168813-9643ce2a-feb7-4d50-a43a-6e38697c5b55.png" width="500" >
 
 
 ### 풀이 <br>
