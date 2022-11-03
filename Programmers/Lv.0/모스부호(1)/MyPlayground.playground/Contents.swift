@@ -30,10 +30,9 @@ let morse = [
 ]
 
 func solution(_ letter:String) -> String {
+    print(letter.components(separatedBy: " ").compactMap { morse[$0]}.joined()) 
     return letter
-        .components(separatedBy: " ")
-        .compactMap { morse[$0] }
-        .joined()
+        .components(separatedBy: " ").compactMap { morse[$0] }.joined()
 }
 
 solution(".... . .-.. .-.. ---")
