@@ -19,6 +19,8 @@ solution([1, 2, 3, 4])
 
 ```
 
+정리 <br>
+https://peppo.tistory.com/168
 
 문제 출처 <br>
 https://school.programmers.co.kr/learn/courses/30/lessons/120835
