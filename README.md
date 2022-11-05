@@ -14,7 +14,7 @@ Swift 알고리즘 문제를 풀고 정리하는 용도 입니다.
 - [외계행성의 나이](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/Programmers/Lv.0/%EC%99%B8%EA%B3%84%ED%96%89%EC%84%B1%EC%9D%98%20%EB%82%98%EC%9D%B4)
 - [인덱스 바꾸기](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/Programmers/Lv.0/%EC%9D%B8%EB%8D%B1%EC%8A%A4%20%EB%B0%94%EA%BE%B8%EA%B8%B0)
 - [중복된 숫자 개수](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/Programmers/Lv.0/%EC%A4%91%EB%B3%B5%EB%90%9C%20%EC%88%AB%EC%9E%90%20%EA%B0%9C%EC%88%98)
-- [진료 순서 정하기](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/Programmers/Lv.0/%EC%A7%84%EB%A3%8C%20%EC%88%9C%EC%84%9C%20%EC%A0%95%ED%95%98%EA%B8%B0%20(%ED%91%B8%EB%8A%94%EC%A4%91))
+- [진료 순서 정하기](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/Programmers/Lv.0/%EC%A7%84%EB%A3%8C%20%EC%88%9C%EC%84%9C%20%EC%A0%95%ED%95%98%EA%B8%B0)
 - [최댓값 만들기(2)](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/Programmers/Lv.0/%EC%B5%9C%EB%8C%93%EA%B0%92%20%EB%A7%8C%EB%93%A4%EA%B8%B0(2))
 - [피자 나눠 먹기(2)](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/Programmers/Lv.0/%ED%94%BC%EC%9E%90%20%EB%82%98%EB%88%A0%20%EB%A8%B9%EA%B8%B0(2))
 
