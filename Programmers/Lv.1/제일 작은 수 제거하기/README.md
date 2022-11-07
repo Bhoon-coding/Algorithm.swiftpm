@@ -5,6 +5,7 @@
 
 
 ### 풀이 <br>
+1. 
 ```swift
   func solution(_ arr:[Int]) -> [Int] {
     guard arr.count > 1 else { return [-1] }
@@ -13,6 +14,13 @@
     var result: [Int] = arr
     result.remove(at: index)
     return result
+}
+```
+2.
+```swift
+func solution(_ arr:[Int]) -> [Int] {
+    let min = arr.sorted(by: <)[0]
+    return arr.count == 1 ? [-1] : arr.filter { $0 != min }
 }
 ```
 

@@ -1,7 +1,4 @@
 func solution(_ arr:[Int]) -> [Int] {
-
-    let min = arr.sorted(by: <)[0]
-    print(arr.filter { $0 != min })
     guard arr.count > 1 else { return [-1] }
     guard let index = arr.firstIndex(of: arr.min()!) else { return [-1] }
 
