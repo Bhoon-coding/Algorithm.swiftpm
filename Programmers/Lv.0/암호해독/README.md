@@ -19,7 +19,7 @@ solution("pfqallllabwaoclk", 2)
 ```
 
 ### 정리 <br>
-
+https://peppo.tistory.com/174
 
 문제 출처 <br>
 https://school.programmers.co.kr/learn/courses/30/lessons/120892
