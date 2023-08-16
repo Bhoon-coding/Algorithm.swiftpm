@@ -4,7 +4,8 @@
 
 정수의 배열로 이루어진 nums로 각각 더해서 target의 값과 같으면 해당 index들을 리턴
 
-<img width="50%" src = "https://hackmd.io/_uploads/BymQ0Cc33.png">
+<img width="50%" src = "https://github.com/Bhoon-coding/Algorithm.swiftpm/assets/64088377/ea9497ff-c424-4c2c-851e-d55e06d08dad">
+
 
 ### 풀이 <br>
 - enumerated()를 이용해 index를 구함
