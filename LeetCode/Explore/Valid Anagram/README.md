@@ -6,7 +6,8 @@
 > **Anagram**
  다른 단어나 구의 글자를 재배열하여 만든 단어 또는 구문
 
-<img width="50%" src = "https://hackmd.io/_uploads/rkziptYn2.png">
+
+<img width="50%" src = "https://github.com/Bhoon-coding/Algorithm.swiftpm/assets/64088377/0b15adc3-ccd9-4329-966f-b63a0540214d">
 
 ### 풀이 <br>
 - s, t를 정렬해서 두 string의 순서들을 똑같이 만듬.
