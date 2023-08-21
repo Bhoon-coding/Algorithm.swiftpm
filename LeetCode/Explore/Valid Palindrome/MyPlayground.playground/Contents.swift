@@ -1,7 +1,12 @@
 class Solution {
     func isPalindrome(_ s: String) -> Bool {
-        let lowerStr = s.lowercased()
+        let convertedStr = s
+            .lowercased()
+            .filter { $0.isNumber || $0.isLetter }
         
-        return true
+        let reversedStr = String(convertedStr.reversed())
+        
+        return convertedStr == reversedStr ? true : false
+        
     }
 }
