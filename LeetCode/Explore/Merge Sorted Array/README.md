@@ -1,20 +1,16 @@
 #  Merge Sorted Array
 
 ### 문제
-//
-주어진 string `s`로 `t`를 만들 수 있다면 true를 리턴, 만들 수 없다면 false를 리턴
-> **Anagram**
- 다른 단어나 구의 글자를 재배열하여 만든 단어 또는 구문
+내림차순이 아닌 순서로 정렬된 두 정수로 된 배열 num1의 요수의 수 m만큼과 num2의 요수의 수 n만큼의 배열을 합치는 문제
 
-<img width="50%" src = "https://hackmd.io/_uploads/rkziptYn2.png">
+<img width="50%" src = "https://hackmd.io/_uploads/H1kdOz5Op.png">
 
 ### 풀이 <br>
-//
-- s, t를 정렬해서 두 string의 순서들을 똑같이 만듬.
-- `==` (비교연산자)를 사용해 s, t를 비교하여 같으면 true를, 다르면 false를 리턴
+- num1[..<m]을 이용해 num1의 요소 첫번째~m번째까지 배열을 가져옴 
+- '+' num2 의 배열을 합친후 .sorted() 메서드를 이용해 정렬 
 
 ### 정리 <br>
-//
+
 
 문제 출처 <br>
-https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150
+https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150
