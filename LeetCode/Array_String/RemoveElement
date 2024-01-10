@@ -1,0 +1,13 @@
+class Solution {
+    func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
+        var tmp = [Int]()
+        for value in nums {
+            if value != val {
+                tmp.append(value)
+            }
+        }
+        
+        nums = tmp
+        return nums.count
+    }
+}
