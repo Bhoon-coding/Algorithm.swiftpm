@@ -1,0 +1,24 @@
+class Solution {
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        var tmp = [Int]()
+        
+        for num in nums {
+            if countNum(arr: tmp, num: num) == 2 {
+                continue
+            }
+            tmp.append(num)
+        }
+        nums = tmp
+        return tmp.count
+    }
+    
+    func countNum(arr: [Int], num: Int) -> Int {
+        var count = 0
+        for value in arr {
+            if value == num {
+                count += 1
+            }
+        }
+        return count
+    }
+}
