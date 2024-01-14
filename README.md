@@ -49,3 +49,11 @@ Swift 알고리즘 문제를 풀고 정리하는 용도 입니다.
 - [Find Numbers with Even Number of Digits](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Find%20Numbers%20with%20Even%20Number%20of%20Digits)
 - [Max Consecutive Ones](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Max%20Consecutive%20Ones)
 - [Squares of a Sorted Array](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Squares%20of%20a%20Sorted%20Array)
+- [Best Time to Buy and Seel Stock](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Best%20Time%20to%20Buy%20and%20Sell%20Stock)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Best%20Time%20to%20Buy%20and%20Sell%20Stock
+- [Contains Duplicate](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Contains%20Duplicate)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Contains%20Duplicate
+- [Merge Sorted Array](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Merge%20Sorted%20Array)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Merge%20Sorted%20Array
+- [Remove Duplicates from Sorted Array](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Remove%20Duplicates%20from%20Sorted%20Array%20)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Remove%20Duplicates%20from%20Sorted%20Array%20
+- [Remove Element](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Remove%20Element)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Remove%20Element
+- [Valid Anagram](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Valid%20Anagram)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Valid%20Anagram
+- [Valid Palindrome](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Valid%20Palindrome)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Valid%20Palindrome
+- [Valid Parentheses](https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Valid%20Parentheses)https://github.com/Bhoon-coding/Algorithm.swiftpm/tree/main/LeetCode/Explore/Valid%20Parentheses
