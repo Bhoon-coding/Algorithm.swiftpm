@@ -17,5 +17,28 @@ class Solution {
     }
 }
 
-var nums = [0,0,1,1,1,2,2,3,3,4]
+//class Solution {
+//    func removeDuplicates(_ nums: inout [Int]) -> Int {
+//        let len = nums.count
+//
+//        guard len > 1 else { return len }
+//        var idx = 0
+//
+//        for n in nums where n != nums[idx] {
+//
+//            // n: [1, 1, 2]
+//            // nums[0] = 1
+//            // nums[1] = 1
+//            // nums[2] = 2
+//            idx += 1
+//            print("idx", idx)
+//            nums[idx] = n
+//            print("nums[idx]", nums[idx])
+//        }
+//        print(nums)
+//        return idx + 1
+//    }
+//}
+
+var nums = [1,1,2]
 Solution().removeDuplicates(&nums)
