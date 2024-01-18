@@ -1,0 +1,17 @@
+class Solution {
+    func majorityElement(_ nums: [Int]) -> Int {
+        for i in 0..<nums.count {
+            var count = 0
+            for j in 1..<nums.count {
+                if nums[i] == nums[j] {
+                    count += 1
+                }
+            }
+            
+            if count >= nums.count / 2 {
+                return nums[i]
+            }
+        }
+        return 0
+    }
+}
