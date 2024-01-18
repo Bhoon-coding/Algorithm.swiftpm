@@ -1,0 +1,8 @@
+class Solution {
+    func rotate(_ nums: inout [Int], _ k: Int) {
+        for _ in 0..<k {
+            let tmp = nums.removeLast()
+            nums.insert(tmp, at: 0)
+        }
+    }
+}
