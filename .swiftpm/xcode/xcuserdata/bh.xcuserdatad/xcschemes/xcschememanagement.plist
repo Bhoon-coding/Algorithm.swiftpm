@@ -432,14 +432,21 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>65</integer>
+			<integer>64</integer>
 		</dict>
 		<key>MyPlayground (Playground) 64.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>65</integer>
+		</dict>
+		<key>MyPlayground (Playground) 65.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>66</integer>
 		</dict>
 		<key>MyPlayground (Playground) 7.xcscheme</key>
 		<dict>
