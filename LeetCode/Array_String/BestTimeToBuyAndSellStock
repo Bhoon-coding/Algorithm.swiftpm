@@ -1,0 +1,18 @@
+class Solution {
+    func maxProfit(_ prices: [Int]) -> Int {
+        var maxProfit: Int = 0
+        var buy: Int = prices[0]
+        for value in prices {
+            if value < buy {
+                buy = value
+            } else if value - buy > maxProfit {
+                maxProfit = value - buy
+            }
+        }
+        if maxProfit < 1 {
+            return 0
+        } else {
+            return maxProfit
+        }
+    }
+}
