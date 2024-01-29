@@ -1,0 +1,19 @@
+class Solution {
+    func canJump(_ nums: [Int]) -> Bool {
+        var current: Int = 0
+        var limit: Int = 0
+        
+        while current <= limit {
+            let recentMove: Int = current + nums[current]
+            if recentMove >= nums.count - 1 {
+                return true
+            }
+            
+            if limit < recentMove {
+                limit = recentMove
+            }
+            current += 1
+        }
+        return false
+    }
+}
