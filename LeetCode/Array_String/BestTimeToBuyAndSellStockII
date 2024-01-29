@@ -1,0 +1,15 @@
+class Solution {
+    func maxProfit(_ prices: [Int]) -> Int {
+        
+        var sum : Int = 0
+        var i : Int = 0
+        
+        while i < prices.count - 1 {
+            if prices[i] - prices[i + 1] < 0 {
+                sum += prices[i + 1] - prices[i]
+            }
+            i += 1
+        }
+        return sum
+    }
+}
