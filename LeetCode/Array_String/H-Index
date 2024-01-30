@@ -1,0 +1,13 @@
+class Solution {
+    func hIndex(_ citations: [Int]) -> Int {
+        var tmp = citations.sorted(by: <)
+        print(tmp)
+        for index in 0..<tmp.count {
+            let hIndex = tmp.count - index
+            if tmp[index] >= hIndex {
+                return hIndex
+            }
+        }
+        return 0
+    }
+}
