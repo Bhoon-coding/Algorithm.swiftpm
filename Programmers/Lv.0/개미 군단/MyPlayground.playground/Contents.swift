@@ -19,3 +19,12 @@ func solution(_ hp:Int) -> Int {
 }
 
 solution(999)
+
+// 다른사람 풀이
+
+func solution2(_ hp:Int) -> Int {
+    hp/5 + hp%5/3 + hp%5%3
+    return 0
+}
+
+solution2(999)
