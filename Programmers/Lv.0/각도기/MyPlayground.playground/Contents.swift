@@ -1,11 +1,6 @@
 import Foundation
 
 func solution(_ angle:Int) -> Int {
-    
-    for i in 90..<100 {
-        print(i)
-    }
-
     var result: Int = 0
     
     switch angle {
