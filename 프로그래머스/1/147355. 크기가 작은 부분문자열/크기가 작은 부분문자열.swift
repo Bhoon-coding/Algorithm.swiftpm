@@ -5,7 +5,6 @@ func solution(_ t:String, _ p:String) -> Int {
     let pLength = p.count
     var tempArr: [Int] = []
     
-//    while !tempT.isEmpty && tempT.count != pLength {
     while tempT.count >= pLength {
         let element = Int(tempT.prefix(pLength))!
         tempT.removeFirst()
