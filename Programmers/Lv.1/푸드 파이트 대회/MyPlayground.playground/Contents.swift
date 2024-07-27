@@ -36,15 +36,19 @@ func separateFood(_ foodCount: Int, _ foodNum: Int, _ foodArr: [Int]) -> [Int] {
 // 123404321
 
 
-// 다른사람 풀이
+//// 다른사람 풀이
 func solution2(_ food:[Int]) -> String {
     var result = ""
-    for i in food.indices {
-        print(i)
+    for i in food.indices { //indices: 배열의 요소 갯수만큼 반복
+        // i를 food[i] / 2 갯수만큼 result에 추가
+        // 1) i = 0 | count = 0 ( 0 / 2 ) ==> ""
+        // 2) i = 1 | count = 1 ( 3 / 2 ) ==> "1"
+        // 3) i = 2 | count = 2 ( 4 / 2 ) ==> "122"
+        // 3) i = 3 | count = 3 ( 6 / 2 ) ==> "122333"
         result += String(repeating: String(i), count: food[i] / 2)
     }
     
     return result + "0" + result.reversed()
 }
 
-solution2([1, 2, 2, 2, 2])
+solution2([1,3,4,6])
