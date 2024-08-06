@@ -27,7 +27,35 @@ func solution(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
     return result
 }
 
-solution(
+//solution(
+//    ["may", "kein", "kain", "radi"],
+//    [5, 10, 1, 3],
+//    [["may", "kein", "kain", "radi"],["may", "kein", "brin", "deny"], ["kon", "kain", "may", "coni"]]
+//)
+
+
+// 다시 풀어보기
+func solution2(_ name:[String], _ yearning:[Int], _ photo:[[String]]) -> [Int] {
+    var tempDic: [String: Int] = [:]
+    var result: [Int] = []
+    
+    for (person, point) in zip(name, yearning) {
+        tempDic[person] = point
+    }
+    
+    for (index, people) in photo.enumerated() {
+        result.append(0)
+        for person in people {
+            if let missedPoint = tempDic[person] {
+                result[index] += missedPoint
+            }
+        }
+    }
+
+    return result
+}
+
+solution2(
     ["may", "kein", "kain", "radi"],
     [5, 10, 1, 3],
     [["may", "kein", "kain", "radi"],["may", "kein", "brin", "deny"], ["kon", "kain", "may", "coni"]]
