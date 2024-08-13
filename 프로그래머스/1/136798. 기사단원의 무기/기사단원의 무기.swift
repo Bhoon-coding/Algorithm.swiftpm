@@ -1,25 +1,19 @@
+import Foundation
 
-func solution(_ number: Int, _ limit: Int, _ power: Int) -> Int {
-    var divisorCount = Array(repeating: 0, count: number + 1)
-    var totalIronWeight = 0
-
-    // 약수의 개수를 계산
+func solution(_ number:Int, _ limit:Int, _ power:Int) -> Int {
+    var divisorCount: [Int] = Array(repeating: 0, count: number + 1)
+    var totalIronWeight: Int = 0
+    
+    // 약수 구하기
     for i in 1...number {
-        var j = i
-        while j <= number {
+        for j in stride(from: i, through: number, by: i) {
             divisorCount[j] += 1
-            j += i
         }
     }
-
-    // 공격력 제한을 적용하여 총 철의 무게 계산
-    for count in divisorCount[1...] {
-        if count > limit {
-            totalIronWeight += power
-        } else {
-            totalIronWeight += count
-        }
+    // 필요한 철의 무게 구하기
+    for currentPower in divisorCount[1...] {
+        totalIronWeight += currentPower > limit ? power : currentPower
     }
-
+    
     return totalIronWeight
 }
