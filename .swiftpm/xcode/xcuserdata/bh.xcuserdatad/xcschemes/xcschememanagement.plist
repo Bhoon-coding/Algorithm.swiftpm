@@ -33,7 +33,14 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>101</integer>
+			<integer>100</integer>
+		</dict>
+		<key>MyPlayground (Playground) 101.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>102</integer>
 		</dict>
 		<key>MyPlayground (Playground) 11.xcscheme</key>
 		<dict>
@@ -712,7 +719,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>100</integer>
+			<integer>101</integer>
 		</dict>
 		<key>MyPlayground (Playground).xcscheme</key>
 		<dict>
